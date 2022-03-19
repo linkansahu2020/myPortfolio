@@ -1,0 +1,68 @@
+.personal {
+  margin-top: 10vh;
+  width: 94vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+ 
+}
+
+.personal > h1 {
+  color: rgb(204, 214, 246);
+}
+.personal > p {
+  color: rgb(136, 146, 176);
+  font-family: 'Roboto Mono', monospace;
+  max-width: 1200px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+
+  text-align: left;
+}
+.personal > p>span {
+  color: rgb(59, 151, 141);
+  margin-right: 20px;
+ 
+
+
+  /* text-align: left; */
+}
+.Aright {
+  height: 30px;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  gap: 30px;
+ margin-top: 70px;
+  
+
+}
+.Aright > a > img {
+  width: 55px;
+ 
+}
+@media screen and (max-width: 992px) {
+    .personal {
+        margin-top: 10vh;
+       
+      }
+      .personal > p {
+      margin-top: -20px;
+      text-align: center;
+      line-height:24px;
+      font-size:14px;
+      }
+      .Aright {
+     
+       margin-top: 15px;
+       
+       
+      
+      }
+  
+
+}

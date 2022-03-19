@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@100;500&display=swap");
+
+.navbar {
+  width: 90%;
+  display: flex;
+
+  justify-content: space-between;
+
+  /* background-image:linear-gradient(to left,rgb(69, 1, 255),#030d36); */
+
+  height: 70px;
+  z-index: 1;
+}
+.logobody>img{
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 35px;
+ z-index: 3;
+}
+.logobody{
+  z-index: 3;
+  position: absolute;
+}
+a{
+  text-decoration: none;
+  color: rgb(20, 208, 186);
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(20, 208, 186);
+  margin-top: 20px;
+  width:40%;
+
+  font-family: "Roboto Mono", monospace;
+}
+.options>div {
+  height: 20px;
+  padding: 5px;
+
+}
+
+
+
+.protfolio:hover {
+  border-bottom: 2px solid aqua;
+  cursor: pointer;
+}
+
+.logobody {
+  margin-top: -10px;
+}
+
+
+
+.projects:hover {
+  border-bottom: 2px solid aqua;
+  cursor: pointer;
+}
+
+
+
+.about:hover {
+  border-bottom: 2px solid aqua;
+  cursor: pointer;
+}
+.about>a {
+ text-decoration:none;
+ 
+}
+
+
+.full {
+  display: flex;
+  width: 180px;
+  z-index: 1;
+}
+
+.linkcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+.email {
+  display: flex;
+  align-items: flex-start;
+  color: rgb(136, 146, 176);
+}
+
+.email > p:nth-child(1) {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: -40px;
+}
+
+.email > p:nth-child(2) {
+  cursor: pointer;
+}
+
+.email >a> p:hover {
+  color: aqua;
+}
+.email >a{
+  color: rgb(136, 146, 176);
+  text-decoration: none;
+}
+
+.account {
+  display: flex;
+  /* width:30%;/ */
+  width: 250px;
+  justify-content: space-between;
+  color: rgb(136, 146, 176);
+  margin-left: 10px;
+}
+
+.account >a> svg {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+  stroke: rgb(136, 146, 176);
+  cursor: pointer;
+  fill: none;
+}
+
+.account >a> svg:hover {
+  stroke: rgb(97, 218, 251);
+  margin-left: 3px;
+  cursor: pointer;
+  fill: rgb(97, 218, 251);
+}
+.account >a> svg:nth-child(3):hover {
+  stroke: rgb(10, 25, 47);;
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/* .menu{
+  margin-top:10px;
+  height:100px;
+  width:100px;
+  display: none;
+} */
+@media screen and (max-width: 992px) {
+  /* .menu{
+   
+    display: block;
+    margin-right: -100pxpx;
+  }
+  .options{
+    display:none; */
+  /* } */
+  .navbar {
+    width:88%;
+  }
+ 
+  .account {
+    display: flex;
+    /* width:30%;/ */
+    width: 150px;
+    justify-content: space-between;
+    color: rgb(136, 146, 176);
+    margin-left: 10px;
+  }
+
+}

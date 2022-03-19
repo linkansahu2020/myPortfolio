@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;500&display=swap');
+.App {
+  text-align: center;
+  height:100vh;
+  display:flex;
+
+  
+
+}
+
+*{
+  scroll-behavior:smooth;
+}
+
+.App-logo {
+  height: 14vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 600vw;
+}
+
+.two {
+ background-color: rgb(10,25,47);
+}
+.three {
+  background-color: rgb(10,25,47);
+}
+.four {
+  background-color: rgb(10,25,47);
+ 
+}
+.five {
+  background-color: rgb(10,25,47);
+ 
+}
+.six {
+  background-color: rgb(10,25,47);
+ 
+}
+.wrapper {
+  
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+  }
+  .outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+  }
+  .outer-wrapper {
+    
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    ::-webkit-scrollbar {
+      display:none;
+    }

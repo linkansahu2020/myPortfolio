@@ -1,0 +1,254 @@
+.First_view {
+  /* //background-image:url(../Resourses/Protfolio.jpg); */
+  /* background-image:linear-gradient(to right,rgb(243,239,254),#030d36);
+
+ background-size:cover; */
+  background-color: rgb(10, 25, 47);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.profile {
+  margin-top: 100px;
+ width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* border:1pxsolid  red; */
+}
+
+.profileimg {
+ 
+min-width:600px;
+ /* margin-left: 18vw; */
+  border-radius: 100px;
+
+ 
+}
+.profileimg>img {
+  margin: auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 120px;
+  padding:5px;
+  border:3px solid #3b978d;
+
+ 
+}
+
+
+.animations {
+
+  width: 45%;
+  margin-right: 5vw;
+}
+
+.intro {
+
+  font-weight: 10000;
+  text-align: left;
+  color: rgb(20, 208, 186);
+
+  font-family: 'Roboto Mono', monospace;
+}
+
+.myname {
+  margin-top: -30px;
+  font-size: 25px;
+  text-align: left;
+  height: 150px;
+}
+
+.myname>h2:nth-child(2) {
+  margin-top: -35px;
+  color: rgb(136, 146, 176);
+}
+
+.myname>h1:nth-child(1) {
+  font-size: 3rem;
+  color: rgb(204, 214, 246);
+}
+.btns{
+  display:flex
+  
+}
+
+.get {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(10, 25, 47);
+  border: 2px solid rgb(59, 151, 141);
+  border-radius: 5px;
+  color: rgb(59, 151, 141);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  
+}
+.btns>a{
+  text-decoration: none;
+}
+
+.get:hover {
+  cursor: pointer;
+  background-color: rgb(25, 58, 80);
+}
+
+.background {
+
+  height: 110vh;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.Techimage {
+  margin-top: 60px;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+
+}
+
+.Techimage>img {
+  height: 70px;
+  width: 70px;
+}
+
+.TechStacks>h2 {
+  text-align: left
+}
+
+.TechStacks {
+  margin-top: 30px;
+  text-align: left
+}
+.right{
+  height: 30px;
+  width:97%;
+
+  text-align: center;
+  margin-top:1rem;
+
+
+}
+.right>a> img{
+
+  width:55px;
+
+
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ashish {
+    animation: App-logo-spin infinite 2s linear;
+
+  }
+}
+@media only screen and (max-width: 992px) {
+
+  
+   
+  .profile {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    /* border:1pxsolid  red; */
+  }
+
+  .animations {
+
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profileimg {
+  min-width: 100%;
+    width: 100%;
+   
+
+  }
+  .profileimg>img {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 120px;
+    padding:5px;
+    border:3px solid #3b978d;
+  
+   
+  }
+
+  .myname {
+    margin-top: -30px;
+    font-size: 25px;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myname>h2:nth-child(2) {
+    margin-top: -20px;
+    font-size: 2rem;
+    color: rgb(136, 146, 176);
+  }
+
+  .myname>h1:nth-child(1) {
+   margin-top: 125px;
+    font-size: 2.2rem;
+    color: rgb(204, 214, 246);
+  }
+
+  .intro {
+    font-weight: 10000;
+    font-size: 0.8rem;
+    text-align: left;
+    color: rgb(59, 151, 141);
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .Techimage>img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .Techimage {
+    margin-top:100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .btns{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    z-index: 1000;
+
+    
+  }
+  
+  
+  
+  
+  
+
+
+}
