@@ -5,7 +5,7 @@ import HashLoader from "react-spinners/HashLoader";
 import LandingPage from './HomePage/LandingPage';
 import Navbar from './Navbar/Navbar';
 import Monster from '../src/projects/Monster'
-import Coshedeuled from './projects/Coshedeuled';
+import Snapdeal from './projects/Snapdeal';
 import Contact from './Contact/contact';
 import Aboutme from './About me/Aboutme';
 import { useEffect, useState } from 'react';
@@ -55,7 +55,7 @@ function App() {
     <Monster/>
     </div>
     <div class="slide four">
-    <Coshedeuled/>
+    <Snapdeal/>
     </div>
     <div class="slide five">
       <Koovs/>

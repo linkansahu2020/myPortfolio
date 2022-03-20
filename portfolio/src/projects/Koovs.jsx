@@ -2,7 +2,7 @@ import React from "react";
 import "./Monster.css";
 import html from "../Resourses/html (2).svg";
 import css from "../Resourses/icons8-css3.svg";
-import react from "../Resourses/icons8-react-native.svg";
+// import react from "../Resourses/icons8-react-native.svg";
 import javascript from "../Resourses/icons8-js-squared (2).svg";
 import frontend from "../Resourses/frontend.png";
 import right from "../Resourses/rightarrow.png";
@@ -34,7 +34,7 @@ function Koovs() {
             <div className="stacks">
               <img src={html} alt="" />
               <img src={css} alt="" />
-              <img src={react} alt="" />
+              {/* <img src={react} alt="" /> */}
               <img src={javascript} alt="" />
             </div>
           </div>

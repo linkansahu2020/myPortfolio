@@ -6,16 +6,16 @@ import javascript from "../Resourses/icons8-js-squared (2).svg";
 import monsterpic from "./co.png"
 import right from "../Resourses/rightarrow.png";
 import left from "../Resourses/left.png";
-function Coshedeuled() {
+function Snapdeal() {
     return (
         <div id="co" className="viewBox">
              <div className="viewBox_heading">
-             <h1>Coshedeuled.com clone</h1>
+             <h1>Snapdeal.com</h1>
              </div>
             <div className="container">
             <div className="description">
                 <h1>Description</h1>
-                <p>This is the clone of CoSchedule.com which deals with Organize All Of Your Marketing In One Place.</p>
+                <p>This is the clone of snapdeal.com which is an ecommerce website where an user can do online shoping of different products. </p>
                 <div className="btn">
                 <a target="_blank" href={"https://github.com/khushbookhator/CoSchedule_clone"}>       <div className="first">
                    Github link
@@ -56,4 +56,4 @@ function Coshedeuled() {
     )
 }
 
-export default Coshedeuled
+export default Snapdeal
