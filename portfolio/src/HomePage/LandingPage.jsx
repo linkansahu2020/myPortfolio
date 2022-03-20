@@ -9,7 +9,6 @@ import react from "../Resourses/icons8-react-native.svg";
 import mongo from "../Resourses/icons8-mongodb.svg";
 import profile from "../Resourses/profile.jpeg";
 import right from "../Resourses/rightarrow.png";
-import Resume from "../Resourses/Resume.pdf";
 
 import "animate.css";
 function LandingPage() {
