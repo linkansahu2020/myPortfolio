@@ -4,7 +4,7 @@ import { css } from "@emotion/react";
 import HashLoader from "react-spinners/HashLoader";
 import LandingPage from './HomePage/LandingPage';
 import Navbar from './Navbar/Navbar';
-import Monster from '../src/projects/Monster'
+import Monster from './projects/Monster'
 import Snapdeal from './projects/Snapdeal';
 import Contact from './Contact/contact';
 import Aboutme from './About me/Aboutme';

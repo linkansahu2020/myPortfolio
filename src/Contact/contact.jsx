@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Contact/contact.css"
+import "./contact.css"
 import home from "../Resourses/home.svg";
 import left from "../Resourses/left.png";
 
