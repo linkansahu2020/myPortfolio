@@ -4,7 +4,7 @@ import html from "../Resourses/html (2).svg";
 import css from "../Resourses/icons8-css3.svg";
 // import react from "../Resourses/icons8-react-native.svg";
 import javascript from "../Resourses/icons8-js-squared (2).svg";
-import frontend from "../Resourses/frontend.png";
+import Koov from "../Resourses/Koovs.png";
 import right from "../Resourses/rightarrow.png";
 import left from "../Resourses/left.png";
 
@@ -41,7 +41,7 @@ function Koovs() {
         </div>
 
         <div className="image">
-          <img src={frontend} alt="" />
+          <img src={Koov} alt="" />
         </div>
       </div>
       <div className="Aright">

@@ -3,7 +3,7 @@ import "./Monster.css"
 import html from "../Resourses/html (2).svg";
 import css from "../Resourses/icons8-css3.svg";
 import javascript from "../Resourses/icons8-js-squared (1).svg";
-import monsterpic from "./co.png"
+import snapdeal from "../Resourses/snapdeal.png"
 import right from "../Resourses/rightarrow.png";
 import left from "../Resourses/left.png";
 import express from "../Resourses/icons8-js-squared (2).svg";
@@ -42,7 +42,7 @@ function Snapdeal() {
             </div>
            
             <div className="image">
-            <img src={monsterpic} alt="" />
+            <img src={snapdeal} alt="" />
             </div>
             </div>
             <div className="mright">

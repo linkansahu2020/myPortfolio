@@ -12,18 +12,18 @@ function Monster() {
     return (
         <div id="monster" className="viewBox">
             <div className="viewBox_heading">
-            <h1>Monsterjob.com clone</h1>
+            <h1>Next Project</h1>
             </div>
             
             <div className="container">
             <div className="description">
                 <h1>Description</h1>
-                <p>An exact clone of the well-known job search site using React, Javascript,HTML, CSS and Redux.</p>
+                <p>Project description</p>
                 <div className="btn">
-                <a target="_blank" href={"https://github.com/Darshan-Naik/Monster_clone"}>         <div className="first">
+                <a target="_blank" href={"github link"}>         <div className="first">
                    Github link
                 </div></a>
-                <a target="_blank" href={"https://monster-clone.vercel.app/"}>      <div className="second">
+                <a target="_blank" href={"vercel link"}>      <div className="second">
                     Check Deployed link
                 </div></a>
                 
