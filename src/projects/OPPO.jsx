@@ -10,15 +10,15 @@ import left from "../Resourses/left.png";
 
 function OPPO() {
     return (
-        <div id="monster" className="viewBox">
+        <div id="oppo" className="viewBox">
             <div className="viewBox_heading">
-            <h1>Next Project</h1>
+            <h1>OPPO Clone</h1>
             </div>
             
             <div className="container">
             <div className="description">
                 <h1>Description</h1>
-                <p>Project description</p>
+                <p>This is the clone of oppo.com which is a website where an user can do online shoping of different electronics products.</p>
                 <div className="btn">
                 <a target="_blank" href={"https://github.com/linkansahu2020/OPPO-Frontend.git"}>         <div className="first">
                    Github link

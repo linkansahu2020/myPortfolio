@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Monster.css"
+import "./OPPO.css"
 import html from "../Resourses/html (2).svg";
 import css from "../Resourses/icons8-css3.svg";
 import javascript from "../Resourses/icons8-js-squared (1).svg";
@@ -46,7 +46,7 @@ function Snapdeal() {
             </div>
             </div>
             <div className="mright">
-      <a href="#monster">
+      <a href="#oppo">
       <img src={left} alt="" />
          </a>
       <a href="#front">

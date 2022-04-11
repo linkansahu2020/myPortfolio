@@ -28,7 +28,7 @@ function Aboutme() {
       <a href="#land">
       <img src={left} alt="" />
          </a>
-      <a href="#monster">
+      <a href="#oppo">
           <img src={right} alt="" />
         </a>
       </div>

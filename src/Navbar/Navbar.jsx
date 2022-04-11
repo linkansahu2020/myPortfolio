@@ -15,7 +15,7 @@ function Navbar() {
     
       <div className="options">
         <div className="protfolio"><a href="#about">About </a></div>
-        <div className="projects"><a href="#monster">Projects </a> </div>
+        <div className="projects"><a href="#oppo">Projects </a> </div>
         <div className="about"> <a href="#contact"> Contact </a> </div>
       </div>
      {/* <div className="menu">
