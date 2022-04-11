@@ -42,7 +42,7 @@ function OPPO() {
             </div>
             </div>
            
-            <div className=" imagee">
+            <div className=" image">
             <img src={OPPOimg} alt="" />
             </div>
             </div>
