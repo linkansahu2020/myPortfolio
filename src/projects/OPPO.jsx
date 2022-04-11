@@ -1,14 +1,14 @@
 import React from 'react'
-import "./Monster.css"
+import "./OPPO.css"
 import html from "../Resourses/html (2).svg";
 import css from "../Resourses/icons8-css3.svg";
 import react from "../Resourses/icons8-react-native.svg";
 import javascript from "../Resourses/icons8-js-squared (2).svg";
-import monsterpic from "./monsterpic.png"
+import OPPOimg from './OPPOimg.png'
 import right from "../Resourses/rightarrow.png";
 import left from "../Resourses/left.png";
 
-function Monster() {
+function OPPO() {
     return (
         <div id="monster" className="viewBox">
             <div className="viewBox_heading">
@@ -20,10 +20,10 @@ function Monster() {
                 <h1>Description</h1>
                 <p>Project description</p>
                 <div className="btn">
-                <a target="_blank" href={"github link"}>         <div className="first">
+                <a target="_blank" href={"https://github.com/linkansahu2020/OPPO-Frontend.git"}>         <div className="first">
                    Github link
                 </div></a>
-                <a target="_blank" href={"vercel link"}>      <div className="second">
+                <a target="_blank" href={"https://oppo-clone.vercel.app/"}>      <div className="second">
                     Check Deployed link
                 </div></a>
                 
@@ -43,7 +43,7 @@ function Monster() {
             </div>
            
             <div className=" imagee">
-            <img src={monsterpic} alt="" />
+            <img src={OPPOimg} alt="" />
             </div>
             </div>
             <div className="mright">
@@ -58,4 +58,4 @@ function Monster() {
     )
 }
 
-export default Monster
+export default OPPO;
